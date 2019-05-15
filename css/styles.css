@@ -1,0 +1,21 @@
+#titulo{
+    margin: 5px 5px;
+    margin-bottom: 1px;
+}
+.container-fluid{
+    margin: 5px; 
+}
+#alerta{
+    margin: 5px;
+}
+.input-group{
+    margin: 5px;
+    margin-left: 7px;    
+}
+.card{
+    margin: 5px 5px;
+    margin-top: -10px;
+    background: linear-gradient(to top,#D4DBE2, white); 
+    box-shadow: 10px 10px 5px cadetblue;
+}
+
