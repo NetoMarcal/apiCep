@@ -1,2 +1,2 @@
-const {mask} = require("../js/mask.js");
-import { }  from '../js/consultar.js';
+require("../js/mask.js");
+require("../js/consultar.js");

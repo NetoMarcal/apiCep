@@ -139,5 +139,3 @@ function removeSpinner() {
     spinnerUf.classList.remove('spinner-border-sm');
     
 }
-
-exports = this;
