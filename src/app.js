@@ -1,2 +1,3 @@
-require("../js/mask.js");
-require("../js/consultar.js");
+import "./styles.css"
+import "../js/mask.js";
+import "../js/consultar.js";
