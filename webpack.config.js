@@ -9,6 +9,17 @@ module.exports = {
     devServer: {
         port: 5000
     },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: [
+                    {loader: 'style-loader'},
+                    {loader: 'css-loader'}
+                ]
+            }
+        ]
+    }, 
     plugins: [
         new HtmlWebPackPlugin({
            template: './src/index.html',
